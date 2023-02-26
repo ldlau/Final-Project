@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    password: book
+    username: book
+    url: jdbc:mysql://localhost:3306/book
+    
+logging:
+  level:
+    root: warn 
+    '[com.promineotech]': info
